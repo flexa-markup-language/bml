@@ -1,5 +1,7 @@
 # BPS Data Storing Format
 
+BPS is a key-value data storing structure. It allows to store data in several types, even array.
+
 ## Specification
 
 - **Comments**: BPS allows one-line comments. Comments start with hash symbol (`#`). E.g. `# This is a comment`.
