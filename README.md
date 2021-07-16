@@ -2,6 +2,12 @@
 
 BPS is a key-value data storing structure. It allows to store data in several types, even array.
 
+
+## Guides and Documentation
+
+All documentation of BPS can be found [here](https://bps-lib.github.io/). It contains all guides and detailed documentation.
+
+
 ## Specification
 
 - **Comments**: BPS allows one-line comments. Comments start with hash symbol (`#`). E.g. `# This is a comment`.
