@@ -21,7 +21,7 @@ All documentation of BPS can be found [here](https://bps-lib.github.io/). It con
   * **Boolean**: booleans can be `true` or `false`.
   * **Array**: arrays should be between braces (`[ ]`) separated by comma `,`. E.g. `[0, 1, 2]`, `['a', 'b', 'c']`, `[[0, 1], [0, 1]]` and so on.
 
-## File in BPS Notation
+### File in BPS Notation
 
 ```
 
