@@ -77,7 +77,7 @@ multArr3:[
 
 ## BPS Handle Specification
 
-A BPS handle must contain the following classes and methods.
+Below will be described all methods that a BPS Handler must have. The methods can have different names to match with the current programming language collections pattern. For example, the `Add` method can be called `put` in Java.
 
 ### BPSFile class
 
