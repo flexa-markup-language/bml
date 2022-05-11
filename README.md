@@ -17,7 +17,7 @@ All documentation of BPS can be found [here](https://bps-lib.github.io/). It con
   * **Chars**: chars must be in quotes. E.g. `'c'`.
   * **Integers**: e.g. `256`.
   * **Float**: floats can be write `256.`, `256.0` or `256f`.
-  * **Double**: e.g. doubles can be write `256.0d` or `256d`.
+  * **Double**: e.g. doubles can be write `256.d`, `256.0d` or `256d`.
   * **Boolean**: booleans can be `true` or `false`.
   * **Array**: arrays must be between braces (`[ ]`) separated by comma (`,`). E.g. `[0, 1, 2]`, `['a', 'b', 'c']`, `[[0, 1], [0, 1]]` and so on.
 
