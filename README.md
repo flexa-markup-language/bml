@@ -15,11 +15,12 @@ All documentation of BPS can be found [here](https://bps-lib.github.io/). It con
 - **Values**:
   * **Strings**: strings must be in double-quotes. E.g. `"this is a string"`.
   * **Chars**: chars must be in quotes. E.g. `'c'`.
-  * **Integers**: e.g. `256`.
-  * **Float**: floats can be write `256.f`, `256.0f` or `256f`.
-  * **Double**: e.g. doubles can be write `256.`, `256.0` or `256d`.
+  * **Integers<sup>1</sup>**: e.g. `255`.
+  * **Float<sup>1</sup>**: e.g. floats can be write `255.`, `255.0` or `255f`.
   * **Boolean**: booleans can be `true` or `false`.
   * **Array**: arrays must be between braces (`[ ]`) separated by comma (`,`). E.g. `[0, 1, 2]`, `['a', 'b', 'c']`, `[[0, 1], [0, 1]]` and so on.
+
+<sup>1</sup> Some types must be parsed as maximum language precision for that type.
 
 ### File in BPS Notation
 
