@@ -1,6 +1,6 @@
-# BPS Data Storing Format
+# BPS Data Handling Format
 
-BPS is a key-value data storing structure. It allows storing data in several types, even arrays.
+BPS is a key-value data handling structure. It allows to manipulate data in several types, even arrays.
 
 
 ## Guides and Documentation
