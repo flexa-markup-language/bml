@@ -48,14 +48,14 @@ intArr:[0, 1, 2, 10, -5];
 floatArr:[0.9, 1.7, -0.2, 1.06, -5.618];
 boolArr:[true, false, true];
 
-# Multidimensional array
+# Matrix
 multArr2:[
   [0, 1, 2],
   [0, 1, 2],
   [0, 1, 2]
 ];
 
-# And so on
+# Multidimensional array
 multArr3:[
   [
     [0, 1, 2],
@@ -73,6 +73,12 @@ multArr3:[
     [0, 1, 2]
   ]
 ];
+
+# Sub-structures
+sub_str:
+  v1: 10;
+  v2: "sub";
+;
 
 ```
 
