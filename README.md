@@ -1,4 +1,4 @@
-# BPS Data Handling Format
+# The BPS Data Serialization Language
 
 BPS is a key-value data handling structure. It allows to manipulate data in several types, even arrays.
 
