@@ -1,6 +1,6 @@
 # The BPS Data Serialization Language
 
-BPS is a key-value data handling structure. It allows to manipulate data in several types, even arrays.
+BPS is a key-value data serialization language. It allows to manipulate data in several types.
 
 
 ## Guides and Documentation
@@ -79,6 +79,13 @@ sub_str:
   v1: 10;
   v2: "sub";
 ;
+
+# Array of sub-structures
+stringArr:[
+  sub_str:v1:10;v2:"sub";;,
+  sub_str:v1:11;v2:"sup";;,
+  sub_str:v1:20;v2:"sut";;
+];
 
 ```
 
