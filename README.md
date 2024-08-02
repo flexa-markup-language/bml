@@ -82,9 +82,18 @@ sub_str:
 
 # Array of sub-structures
 stringArr:[
-  sub_str:v1:10;v2:"sub";;,
-  sub_str:v1:11;v2:"sup";;,
-  sub_str:v1:20;v2:"sut";;
+  sub_str:
+    v1:10;
+    v2:"sub";
+  ;,
+  sub_str:
+    v1:11;
+    v2:"sup";
+  ;,
+  sub_str:
+    v1:20;
+    v2:"sut";
+  ;
 ];
 
 ```
