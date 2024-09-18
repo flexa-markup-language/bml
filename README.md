@@ -107,5 +107,5 @@ Below will be described all methods that a BPS Handler must have.
 #### Methods
 - `public static Dictionary<string, object> Parse(string data)`
 This method will parse a string representation in BPS notation to a dictionary.
-- `public static string Plain(Dictionary<string, object> data)`
+- `public static string Stringify(Dictionary<string, object> data)`
 This method will return a string representation in BPS notation.
