@@ -1,16 +1,16 @@
-# The BPS Data Serialization Language
+# The BML Data Serialization Language
 
-BPS is a key-value data serialization language. It allows to manipulate data in several types.
+BML is a data serialization language. It allows to manipulate data in several types.
 
 
 ## Guides and Documentation
 
-All documentation of BPS can be found [here](https://bps-lib.github.io/). It contains all guides and detailed documentation.
+All documentation of BML can be found [here](https://basic-markup-language.github.io/). It contains all guides and detailed documentation.
 
 
 ## Specification
 
-- **Comments**: BPS allows one-line comments. Comments start with a hash symbol (`#`). E.g. `# This is a comment`.
+- **Comments**: BML allows one-line comments. Comments start with a hash symbol (`#`). E.g. `# This is a comment`.
 - **Keys**: keys can be started with an underscore (`_`) or letter, followed by numbers, lower or upper case letters, and/or underscores.
 - **Values**:
   * **Strings**: strings must be in double-quotes. E.g. `"this is a string"`.
@@ -22,11 +22,11 @@ All documentation of BPS can be found [here](https://bps-lib.github.io/). It con
 
 <sup>1</sup> Some types must be parsed as maximum language precision for that type.
 
-### File in BPS Notation
+### File in BML Notation
 
 ```
 
-# All data types of a BPS file.
+# All data types of a BML file.
 
 # Literals
 string:"string \"between\" double quotes";
@@ -98,14 +98,14 @@ stringArr:[
 
 ```
 
-## BPS Handle Specification
+## BML Handle Specification
 
-Below will be described all methods that a BPS Handler must have.
+Below will be described all methods that a BML Handler must have.
 
-### BPS class
+### BML class/source file
 
 #### Methods
 - `public static Dictionary<string, object> Parse(string data)`
-This method will parse a string representation in BPS notation to a dictionary.
+This method will parse a string representation in BML notation to a dictionary.
 - `public static string Stringify(Dictionary<string, object> data)`
-This method will return a string representation in BPS notation.
+This method will return a string representation in BML notation.
