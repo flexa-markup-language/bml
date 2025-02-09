@@ -1,16 +1,16 @@
-# The BML Data Serialization Language
+# The FML Data Serialization Language
 
-BML is a data serialization language. It allows to manipulate data in several types.
+FML is a data serialization language. It allows to manipulate data in several types.
 
 
 ## Guides and Documentation
 
-All documentation of BML can be found [here](https://basic-markup-language.github.io/). It contains all guides and detailed documentation.
+All documentation of FML can be found [here](https://flexa-markup-language.github.io/). It contains all guides and detailed documentation.
 
 
 ## Specification
 
-- **Comments**: BML allows one-line comments. Comments start with a hash symbol (`#`). E.g. `# This is a comment`.
+- **Comments**: FML allows one-line comments. Comments start with a hash symbol (`#`). E.g. `# This is a comment`.
 - **Keys**: keys can be started with an underscore (`_`) or letter, followed by numbers, lower or upper case letters, and/or underscores.
 - **Values**:
   * **Strings**: strings must be in double-quotes. E.g. `"this is a string"`.
@@ -22,11 +22,11 @@ All documentation of BML can be found [here](https://basic-markup-language.githu
 
 <sup>1</sup> Some types must be parsed as maximum language precision for that type.
 
-### File in BML Notation
+### File in FML Notation
 
 ```
 
-# All data types of a BML file.
+# All data types of a FML file.
 
 # Literals
 string:"string \"between\" double quotes";
@@ -98,14 +98,14 @@ stringArr:[
 
 ```
 
-## BML Handle Specification
+## FML Handle Specification
 
-Below will be described all methods that a BML Handler must have.
+Below will be described all methods that a FML Handler must have.
 
-### BML class/source file
+### FML class/source file
 
 #### Methods
 - `public static Dictionary<string, object> Parse(string data)`
-This method will parse a string representation in BML notation to a dictionary.
+This method will parse a string representation in FML notation to a dictionary.
 - `public static string Stringify(Dictionary<string, object> data)`
-This method will return a string representation in BML notation.
+This method will return a string representation in FML notation.
