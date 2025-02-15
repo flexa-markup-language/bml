@@ -14,10 +14,12 @@ All documentation of FML can be found [here](https://flexa-markup-language.githu
 - **Keys**: keys can be started with an underscore (`_`) or letter, followed by numbers, lower or upper case letters, and/or underscores.
 - **Values**:
   * **Strings**: strings must be in double-quotes. E.g. `"this is a string"`.
-  * **Multiline Strings**: strings must be in backtick. E.g. `` `this is a string` ``.
+  <!-- * **Multiline Strings**: strings must be in backtick. E.g. `` `this is a string` ``. -->
   * **Chars**: chars must be in quotes. E.g. `'c'`.
   * **Integers<sup>1</sup>**: e.g. `255`.
+  <!-- * **Other Base Integers<sup>1</sup>**: e.g. `0b255`, `0o255`, `0x255`. -->
   * **Float<sup>1</sup>**: e.g. floats can be write `255.`, `255.0` or `255f`.
+  <!-- * **Scientific Notation Floats<sup>1</sup>**: e.g. `10-1`, `10+1`, `-10-5`. -->
   * **Boolean**: booleans can be `true` or `false`.
   * **Array**: arrays must be curly between braces (`{ }`) separated by comma (`,`). E.g. `{0, 1, 2}`, `{'a', 'b', 'c'}`, `{{0, 1}, {0, 1}}` and so on.
 
